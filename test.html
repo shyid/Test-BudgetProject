@@ -5,33 +5,30 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <style src="style.css"></style>
+        <link rel="stylesheet" href="style.css" />
     </head>
     
     <body>
-        <form autocomplete="off" onsubmit="onFormSubmitBU()">
+        <form class="box" autocomplete="off" onsubmit="onFormSubmitBU()">
             <div>
-                <label >Budget</label>
-                <input type="text"  id="budget" placeholder="Enter Total Amount">
-            </div>
-            <div class="form_action--button">
+                <label >Budget</label><br><br>
+                <input type="text"  id="budget" placeholder="Enter Total Amount"><br><br>
                 <input type="submit" value="Set Budget">
                 <input type="reset" value="Reset">
             </div>
+
         </form>
      
-        <form autocomplete="off" onsubmit="onFormSubmitEX()">
+        <form class="box" autocomplete="off" onsubmit="onFormSubmitEX()">
             <div>
-                <label >Expenses</label>
-                <input type="number" id="productCode" placeholder="Enter Cost of Product">
-                <input type="text"  id="product" placeholder="Enter Title of Product">
-            </div>
-            <div class="form_action--button">
+                <label >Expenses</label> <br><br>
+                <input type="number" id="productCode" placeholder="Enter Cost of Product"><br><br>
+                <input type="text"  id="product" placeholder="Enter Title of Product"><br><br>
                 <input type="submit" value="Check Amount">
                 <input type="reset" value="Reset">
             </div>
         </form>
-        <div id="list-result">
+        <div class="list-result">
             <div>
                 <p>Total Budget</p>
                 <span id="amount">0</span>

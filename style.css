@@ -1,36 +1,46 @@
-#btnAdd {
-    text-transform: uppercase;
-    background: #22B473;
+body{
+    background-color: rgb(193, 193, 218);
+    margin: 5%;
+    padding: 2%;
+    text-align:center;
+}
+.box{
+    border: 1px solid rgb(193, 193, 218);
+    border-radius: 0.03px;
+    box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06); 
+}
+.list-result {
+    
+    margin: 5%;
+    padding: 2%;
+    border: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06); 
+    border: 1px solid rgb(193, 193, 218);
+    background-color: rgb(199, 158, 223);
+
+
+}
+div{
+    display: inline-block;
+    padding: 12px;
+}
+button,input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(154, 154, 216);
+    font-size: 17px;
+    border-radius: 12px;
     border: none;
-    border-radius: 3px;
-    font-weight: bold;
-    color: #FFF;
-    padding: 3px 10px;
-    width: auto;
 }
-
-.tasks-parent {
-    border: 2px solid #777;
-    margin-top: 5px;
-    width: auto;
+.list{
+    margin: 5%;
+    padding: 2%;
+    border: 20px;
 }
-
-html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+input{
+    background-color: rgb(218, 231, 243);
+    height: 20px;
+    border: none;
 }
-
-ul {
-    width: 400px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-li {
-    padding: 5px 10px;
-    color: #000;
-}
-
-li span {
-    padding-left: 10px;
+label , p{
+    font-size:large;
 }
