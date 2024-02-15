@@ -1,0 +1,36 @@
+#btnAdd {
+    text-transform: uppercase;
+    background: #22B473;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 3px 10px;
+    width: auto;
+}
+
+.tasks-parent {
+    border: 2px solid #777;
+    margin-top: 5px;
+    width: auto;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul {
+    width: 400px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    padding: 5px 10px;
+    color: #000;
+}
+
+li span {
+    padding-left: 10px;
+}

@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style src="style.css"></style>
+    </head>
+    
+    <body>
+        <form autocomplete="off" onsubmit="onFormSubmitBU()">
+            <div>
+                <label >Budget</label>
+                <input type="text"  id="budget" placeholder="Enter Total Amount">
+            </div>
+            <div class="form_action--button">
+                <input type="submit" value="Set Budget">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+     
+        <form autocomplete="off" onsubmit="onFormSubmitEX()">
+            <div>
+                <label >Expenses</label>
+                <input type="number" id="productCode" placeholder="Enter Cost of Product">
+                <input type="text"  id="product" placeholder="Enter Title of Product">
+            </div>
+            <div class="form_action--button">
+                <input type="submit" value="Check Amount">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+        <div id="list-result">
+            <div>
+                <p>Total Budget</p>
+                <span id="amount">0</span>
+            </div>
+            <div>
+                <p>Expenses</p>
+                <span id="expenditure-value">0</span>
+            </div>
+            <div>
+                <p>Balance</p>
+                <span id="balance-amount">0</span>
+            </div>        
+        </div>
+        <table class="list" id="ExpenseList">
+            <h2 >Expense List</h2>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>             
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+        </table>
+  
+
+        <script src="app.js"> </script>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
